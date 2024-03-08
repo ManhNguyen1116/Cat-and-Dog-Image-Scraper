@@ -1,0 +1,14 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Jordan Nguyen <jmnguy10@uno.edu>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1",
+        "puppeteer": "^18.0.5"
+    }
+}
